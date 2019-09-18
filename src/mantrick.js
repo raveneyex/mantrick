@@ -9,10 +9,11 @@ export function mantrick(intent, seed = 666) {
 
     const consonants = _.shuffle([
         ...intention
-            .filter(letter => !vowels_regex.test(letter))
+            .filter(letter => letter && letter !== ' ' && !vowels_regex.test(letter))
             .reduce((acc, next) => acc.add(next), new Set())
             .values()
         ]);
+    console.log("Consonants:", consonants);
 
     const randomIndex = Math.floor(Math.random() * seed * 10) % vowels.length;
 
