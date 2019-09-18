@@ -1,8 +1,6 @@
 # Mantrick
 An intention-based mantra generator.
 
-![The RavenEyex Sigil](./raveneyex.png)
-
 # How to use
 Just run `mantrick "an intent or desire in the affirmative present tense"` and the application will give you a mantra.
 
@@ -35,3 +33,13 @@ I would encourage you to read about _chaos magick_, _sigil magick_, and _technom
 
 #### 7. You are an awesome techno-shaman and I have the hots for you. Will you have me?
 Ask my gf if she'll have you. If she does, I do too.
+
+# Dedications
+
+I dedicate this little app to:
+
+1. The _God of Magick_, in whatever form and name he might take. Hail, Hermes!
+2. The _Prince of Darkness_, in whatever form and name he might take. Hail, _Horned Lord_!
+3. Myself, and the Black Flame that burns inside me and makes it possible for me to get inspired and do magick.
+
+[![The RavenEyex Sigil](./raveneyex.png)](https://twitter.com/HumoBinario)
