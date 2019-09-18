@@ -1,4 +1,5 @@
 import arg from 'arg';
+import chalk from 'chalk';
 import {mantrick} from './mantrick';
 
 function parseArgs(rawArgs) {
@@ -23,6 +24,6 @@ function parseArgs(rawArgs) {
 export function cli(args) {
   const { intent, seed } = parseArgs(args),
     mantra = mantrick(intent, seed);
-    
-  console.log("Your mantra is:", mantra);
+
+  console.log('Your mantra is %s', chalk.green.bold(mantra));
 }
