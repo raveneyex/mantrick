@@ -1,5 +1,5 @@
 # Mantrick
-An intention-based mantra generator.
+An intention-based mantra generator written in nodejs.
 
 # How to use
 1. Install dependencies - `npm i`
