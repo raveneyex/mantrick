@@ -2,10 +2,9 @@
 An intention-based mantra generator.
 
 # How to use
-Just run `mantrick "an intent or desire in the affirmative present tense"` and the application will give you a mantra.
-
-Some of the transformations used for generating the mantra require a number called `seed`, this may be supplied as a parameter using the `-s` flag: `mantric "an intent or desire in the affirmative present tense" -s 666`.
-
+1. Install dependencies - `npm i`
+2. Run the app with `mantrick "an intent or desire in the affirmative present tense"`
+3. Some of the transformations used for generating the mantra require a number called `seed`, this may be supplied as a parameter using the `-s` flag: `mantric "an intent or desire in the affirmative present tense" -s 666`.  
 Note that `-s` is expected to be a number and an error will be thrown if this is found not to be.
 
 # FAQ
