@@ -1,6 +1,8 @@
 # Mantrick
 An intention-based mantra generator.
 
+![The RavenEyex Sigil](./raveneyex.png)
+
 # How to use
 Just run `mantrick "an intent or desire in the affirmative present tense"` and the application will give you a mantra.
 
@@ -15,7 +17,7 @@ Much and more have been written about mantras, but in their broader meaning a _m
 
 #### 2. What's the goal here?
 To generate a mantra that when used during meditation acts as a focal point for the materialization of the _will_.  
-Think of the result of this application as a _verbal *sigil* or *servitor*_, if that makes any sense to you.
+Think of the result of this application as a _verbal **sigil**_ or _**servitor**_, if that makes any sense to you.
 
 #### 3. Does this shit works?
 The jury is still out on the effectiveness of mantras, _sigil-magick_, and magick in general.  
