@@ -1,0 +1,33 @@
+{
+  "name": "mantrick",
+  "version": "0.0.1",
+  "description": "An intention-based mantra generator",
+  "main": "src/index.js",
+  "bin": {
+    "mantrick": "bin/mantrick"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "chaos",
+    "magick",
+    "mantra",
+    "generator",
+    "cybermagick",
+    "technomancy",
+    "cybermancy",
+    "technomagick"
+  ],
+  "author": "@raveneyex",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "esm": "^3.2.25",
+    "underscore": "^1.9.1"
+  }
+}
