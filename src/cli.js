@@ -1,6 +1,12 @@
+'use strict';
+
 import arg from 'arg';
 import chalk from 'chalk';
+
 import {mantrick} from './mantrick';
+import {RAVENEYEX_SIGIL_40x40_INVERTED} from './sigil-logo';
+
+const CLEAN_SCREEN_CHARACTER = '\x1Bc';
 
 function parseArgs(rawArgs) {
     const args = arg({
@@ -22,8 +28,17 @@ function parseArgs(rawArgs) {
 }
 
 export function cli(args) {
-    const { intent, seed } = parseArgs(args),
-        mantra = mantrick(intent, seed);
-        
-    console.log('Your mantra is %s', chalk.green.bold(mantra));
+    // Check if all flags are correct
+    const { intent, seed } = parseArgs(args);
+    
+    // Print sigil-logo
+    console.log(chalk.red.bold(RAVENEYEX_SIGIL_40x40_INVERTED));
+
+    // Wait a full second
+    setTimeout(() => {
+        // clean screen
+        console.log(CLEAN_SCREEN_CHARACTER);
+        // Print mantra
+        console.log('Your mantra is %s', chalk.green.bold(mantrick(intent, seed)));
+    }, 100);
 }
