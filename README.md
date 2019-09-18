@@ -14,15 +14,12 @@ Note that `-s` is expected to be a number and an error will be thrown if this is
 Much and more have been written about mantras, but in their broader meaning a _mantra_ is a word used to focus during meditation. 
 
 #### 2. What's the goal here?
-To generate a mantra that when used during meditation acts as a focal point for the materialization of the _will_.
-
+To generate a mantra that when used during meditation acts as a focal point for the materialization of the _will_.  
 Think of the result of this application as a _verbal *sigil* or *servitor*_, if that makes any sense to you.
 
 #### 3. Does this shit works?
-The jury is still out on the effectiveness of mantras, _sigil-magick_, and magick in general.
-
-I, personally, find it very effective if done properly. Others do too.
-
+The jury is still out on the effectiveness of mantras, _sigil-magick_, and magick in general.  
+I, personally, find it very effective if done properly. Others do too.  
 The only way for you to know is to generate a mantra and start using it during meditation.
 
 #### 4. Is this Satanic?
