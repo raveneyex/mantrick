@@ -4,7 +4,7 @@
   "description": "An intention-based mantra generator",
   "main": "src/index.js",
   "bin": {
-    "mantrick": "bin/mantrick"
+    "mantrick": "./src/start.js"
   },
   "publishConfig": {
     "access": "public"

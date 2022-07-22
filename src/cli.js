@@ -3,8 +3,8 @@
 import arg from 'arg';
 import chalk from 'chalk';
 
-import {mantrick} from './mantrick';
-import {RAVENEYEX_SIGIL_40x40_INVERTED} from './sigil-logo';
+import {mantrick} from './mantrick.js';
+import {RAVENEYEX_SIGIL_40x40_INVERTED} from './sigil-logo.js';
 
 const CLEAN_SCREEN_CHARACTER = '\x1Bc';
 
@@ -32,7 +32,7 @@ export function cli(args) {
     const { intent, seed } = parseArgs(args);
     
     // Print sigil-logo
-    console.log(chalk.red.bold(RAVENEYEX_SIGIL_40x40_INVERTED));
+    // console.log(chalk.red.bold(RAVENEYEX_SIGIL_40x40_INVERTED));
 
     // Wait a full second
     setTimeout(() => {
